@@ -1,0 +1,22 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "Badprog LeetCode for javascript",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint 'p_*/tests/*.js'",
+    "format:check": "eslint --format stylish 'p_*/tests/*.js'"
+  },
+  "keywords": [
+    "leetcode",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^30.0.0",
+    "eslint": "^9.32.0"
+  }
+}
