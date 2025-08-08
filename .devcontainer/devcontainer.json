@@ -1,0 +1,15 @@
+// badprog.com
+
+{
+  "name": "badprog_leetcode_javascript_dev_container",
+  "build": {
+    "dockerfile": "Dockerfile",
+    "context": ".."
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["dbaeumer.vscode-eslint", "Orta.vscode-jest"]
+    }
+  },
+  "postCreateCommand": "npm install"
+}
