@@ -1,10 +1,34 @@
-# badprog_leetcode_rust
+# badprog_p1_two_sum
 
-Challenges from leetcode.com in Rust.  
+🔗 https://leetcode.com/problems/two-sum/
 
-The project files enable the management of VSCode Dev Containers, GitHub Actions, PR (GitHub Pull Requests), and the generation of the Docker image on the GHCR (GitHub Container Registry).  
-Each push must be done on a different branch than main.  
-Then a PR has to be created and validated (after the tests pass).  
-When the PR is validated, the push on main branch is generated and the Docker image as well on the GHCR.  
+## Leetcode - 1 - Two Sum
 
-Enjoy! 😎
+Given an array of integers nums and an integer target, return indices of the two numbers such that they add up to target.  
+
+You may assume that each input would have exactly one solution, and you may not use the same element twice.  
+
+You can return the answer in any order.  
+
+Example 1:  
+
+Input: nums = [2,7,11,15], target = 9  
+Output: [0,1]  
+Explanation: Because nums[0] + nums[1] == 9, we return [0, 1].  
+
+Example 2:
+
+Input: nums = [3,2,4], target = 6  
+Output: [1,2]  
+
+Example 3:  
+
+Input: nums = [3,3], target = 6  
+Output: [0,1]  
+
+Constraints:  
+
+2 <= nums.length <= 104  
+-109 <= nums[i] <= 109  
+-109 <= target <= 109  
+Only one valid answer exists.  
